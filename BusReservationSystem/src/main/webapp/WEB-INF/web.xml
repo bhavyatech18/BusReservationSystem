@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+         
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+         version="3.1">
+  <servlet>
+    <servlet-name>ViewBuses</servlet-name>
+    <servlet-class>com.tsrtc.online.servlet.ViewBusesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewBuses</servlet-name>
+    <url-pattern>/viewBuses</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SearchBus</servlet-name>
+    <servlet-class>com.tsrtc.online.servlet.SearchBusServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchBus</servlet-name>
+    <url-pattern>/searchBus</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>BookTicket</servlet-name>
+    <servlet-class>com.tsrtc.online.servlet.BookTicketServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookTicket</servlet-name>
+    <url-pattern>/bookTicket</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CancelTicket</servlet-name>
+    <servlet-class>com.tsrtc.online.servlet.CancelTicketServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CancelTicket</servlet-name>
+    <url-pattern>/cancelTicket</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewBooking</servlet-name>
+    <servlet-class>com.tsrtc.online.servlet.ViewBookingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewBooking</servlet-name>
+    <url-pattern>/viewBooking</url-pattern>
+  </servlet-mapping>
+</web-app>
+
